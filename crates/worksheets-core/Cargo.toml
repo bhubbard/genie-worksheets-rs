@@ -1,0 +1,11 @@
+[package]
+name = "worksheets-core"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Pure-Rust port of Stanford OVAL Genie Worksheets for knowledge-guided conversational task agents"
+
+[dependencies]
+serde.workspace = true
+serde_json.workspace = true
+thiserror.workspace = true

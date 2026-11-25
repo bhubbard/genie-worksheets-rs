@@ -1,0 +1,16 @@
+[package]
+name = "worksheets-cli"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "CLI for Genie Worksheets conversational state machine and validation"
+
+[[bin]]
+name = "genie-worksheets"
+path = "src/main.rs"
+
+[dependencies]
+anyhow.workspace = true
+clap.workspace = true
+serde_json.workspace = true
+worksheets-core = { path = "../worksheets-core" }
